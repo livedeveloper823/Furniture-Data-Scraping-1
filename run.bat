@@ -1,0 +1,3 @@
+python homecenter.py
+
+pause
