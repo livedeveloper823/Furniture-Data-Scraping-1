@@ -6,7 +6,6 @@ import openpyxl, json, re
 import func
 
 urls = [
-    "https://www.homecenter.com.co/homecenter-co/category/cat10334/sofas/?cid=cat10332ftg#Sofas",
     # "https://www.homecenter.com.co/homecenter-co/category/cat10340/sofa-camas/?cid=cat10332cat#SofaCama",
     # "https://www.homecenter.com.co/homecenter-co/category/cat10328/sillas-reclinables-y-descanso/?cid=cat10332cat#Reclinables",
     # "https://www.homecenter.com.co/homecenter-co/category/cat3690001/juegos-de-sala/?cid=cat10332cat#JuegoSala",
