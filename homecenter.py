@@ -7,29 +7,29 @@ import func
 
 urls = [
     "https://www.homecenter.com.co/homecenter-co/category/cat10334/sofas/?cid=cat10332ftg#Sofas",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat10340/sofa-camas/?cid=cat10332cat#SofaCama",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat10328/sillas-reclinables-y-descanso/?cid=cat10332cat#Reclinables",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat3690001/juegos-de-sala/?cid=cat10332cat#JuegoSala",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat80004/puffs/?cid=cat10332cat#Puffs",  **********
-    # "https://www.homecenter.com.co/homecenter-co/category/cat1670283/sillones-y-poltronas/?cid=cat10332cat#Poltronas",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat1670036/centros-de-entretenimiento-y-muebles-para-tv/?cid=cat10332cat#MuebleTV",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat10344/juegos-de-comedor/?cid=cat10344cat#JuegosComedor",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat1670091/mesas-de-comedor/?cid=cat10344cat#MesasComedor",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat4840042/consolas-y-bifes/?cid=cat10344cat#Consolas",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat10338/sillas-para-bar/?cid=cat10344cat#SillasBar",  <--
-    # "https://www.homecenter.com.co/homecenter-co/category/cat1670118/muebles-para-bar/?cid=cat10344cat#Bares",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat10310/closets-y-armarios/?cid=cat10308cat#Closet",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat1670037/mesas-de-noche/?cid=cat10308cat#MesaNoche",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat1660049/camas/?cid=cat10308cat#Camas",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat6040003/comodas-y-tocadores/?cid=cat10308cat#Comodas",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat1370016/cabeceros-para-cama/?cid=cat10308cat#Cabeceros",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat1660051/camas-infantiles-y-cunas/?cid=cat10308cat#CamaInfantil",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat90508/colchones-sencillos/?cid=cat210003ftg#Sencillos",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat90509/colchones-semidobles/?cid=cat210003ftg#Semidobles",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat90510/colchones-dobles/?cid=cat210003ftg#Dobles",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat90268/colchones-queen/?cid=cat210003ftg#Queen",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat90622/colchones-king/?cid=cat210003ftg#King",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat740055/base-cama-y-colchon/?cid=cat210003ftg#BaseCol"
+    "https://www.homecenter.com.co/homecenter-co/category/cat10340/sofa-camas/?cid=cat10332cat#SofaCama",
+    "https://www.homecenter.com.co/homecenter-co/category/cat10328/sillas-reclinables-y-descanso/?cid=cat10332cat#Reclinables",
+    "https://www.homecenter.com.co/homecenter-co/category/cat3690001/juegos-de-sala/?cid=cat10332cat#JuegoSala",
+    "https://www.homecenter.com.co/homecenter-co/category/cat80004/puffs/?cid=cat10332cat#Puffs",  
+    "https://www.homecenter.com.co/homecenter-co/category/cat1670283/sillones-y-poltronas/?cid=cat10332cat#Poltronas",
+    "https://www.homecenter.com.co/homecenter-co/category/cat1670036/centros-de-entretenimiento-y-muebles-para-tv/?cid=cat10332cat#MuebleTV",
+    "https://www.homecenter.com.co/homecenter-co/category/cat10344/juegos-de-comedor/?cid=cat10344cat#JuegosComedor",
+    "https://www.homecenter.com.co/homecenter-co/category/cat1670091/mesas-de-comedor/?cid=cat10344cat#MesasComedor",
+    "https://www.homecenter.com.co/homecenter-co/category/cat4840042/consolas-y-bifes/?cid=cat10344cat#Consolas",
+    "https://www.homecenter.com.co/homecenter-co/category/cat10338/sillas-para-bar/?cid=cat10344cat#SillasBar", 
+    "https://www.homecenter.com.co/homecenter-co/category/cat1670118/muebles-para-bar/?cid=cat10344cat#Bares",
+    "https://www.homecenter.com.co/homecenter-co/category/cat10310/closets-y-armarios/?cid=cat10308cat#Closet",
+    "https://www.homecenter.com.co/homecenter-co/category/cat1670037/mesas-de-noche/?cid=cat10308cat#MesaNoche",
+    "https://www.homecenter.com.co/homecenter-co/category/cat1660049/camas/?cid=cat10308cat#Camas",
+    "https://www.homecenter.com.co/homecenter-co/category/cat6040003/comodas-y-tocadores/?cid=cat10308cat#Comodas",
+    "https://www.homecenter.com.co/homecenter-co/category/cat1370016/cabeceros-para-cama/?cid=cat10308cat#Cabeceros",
+    "https://www.homecenter.com.co/homecenter-co/category/cat1660051/camas-infantiles-y-cunas/?cid=cat10308cat#CamaInfantil",
+    "https://www.homecenter.com.co/homecenter-co/category/cat90508/colchones-sencillos/?cid=cat210003ftg#Sencillos",
+    "https://www.homecenter.com.co/homecenter-co/category/cat90509/colchones-semidobles/?cid=cat210003ftg#Semidobles",
+    "https://www.homecenter.com.co/homecenter-co/category/cat90510/colchones-dobles/?cid=cat210003ftg#Dobles",
+    "https://www.homecenter.com.co/homecenter-co/category/cat90268/colchones-queen/?cid=cat210003ftg#Queen",
+    "https://www.homecenter.com.co/homecenter-co/category/cat90622/colchones-king/?cid=cat210003ftg#King",
+    "https://www.homecenter.com.co/homecenter-co/category/cat740055/base-cama-y-colchon/?cid=cat210003ftg#BaseCol"
     ]
 
 func.create_excel()
