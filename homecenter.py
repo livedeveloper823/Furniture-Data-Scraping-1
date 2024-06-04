@@ -30,6 +30,7 @@ urls = [
     "https://www.homecenter.com.co/homecenter-co/category/cat90268/colchones-queen/?cid=cat210003ftg#Queen",
     "https://www.homecenter.com.co/homecenter-co/category/cat90622/colchones-king/?cid=cat210003ftg#King",
     "https://www.homecenter.com.co/homecenter-co/category/cat740055/base-cama-y-colchon/?cid=cat210003ftg#BaseCol"
+
     ]
 
 func.create_excel()
