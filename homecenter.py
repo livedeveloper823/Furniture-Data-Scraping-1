@@ -6,13 +6,13 @@ import openpyxl, json, re
 import func
 
 urls = [
-    # "https://www.homecenter.com.co/homecenter-co/category/cat10334/sofas/?cid=cat10332ftg#Sofas",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat10340/sofa-camas/?cid=cat10332cat#SofaCama",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat10328/sillas-reclinables-y-descanso/?cid=cat10332cat#Reclinables",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat3690001/juegos-de-sala/?cid=cat10332cat#JuegoSala",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat80004/puffs/?cid=cat10332cat#Puffs",  **********
-    # "https://www.homecenter.com.co/homecenter-co/category/cat1670283/sillones-y-poltronas/?cid=cat10332cat#Poltronas",
-    # "https://www.homecenter.com.co/homecenter-co/category/cat1670036/centros-de-entretenimiento-y-muebles-para-tv/?cid=cat10332cat#MuebleTV",
+    "https://www.homecenter.com.co/homecenter-co/category/cat10334/sofas/?cid=cat10332ftg#Sofas",
+    "https://www.homecenter.com.co/homecenter-co/category/cat10340/sofa-camas/?cid=cat10332cat#SofaCama",
+    "https://www.homecenter.com.co/homecenter-co/category/cat10328/sillas-reclinables-y-descanso/?cid=cat10332cat#Reclinables",
+    "https://www.homecenter.com.co/homecenter-co/category/cat3690001/juegos-de-sala/?cid=cat10332cat#JuegoSala",
+    "https://www.homecenter.com.co/homecenter-co/category/cat80004/puffs/?cid=cat10332cat#Puffs",  **********
+    "https://www.homecenter.com.co/homecenter-co/category/cat1670283/sillones-y-poltronas/?cid=cat10332cat#Poltronas",
+    "https://www.homecenter.com.co/homecenter-co/category/cat1670036/centros-de-entretenimiento-y-muebles-para-tv/?cid=cat10332cat#MuebleTV",
     "https://www.homecenter.com.co/homecenter-co/category/cat10344/juegos-de-comedor/?cid=cat10344cat#JuegosComedor",
     "https://www.homecenter.com.co/homecenter-co/category/cat1670091/mesas-de-comedor/?cid=cat10344cat#MesasComedor",
     "https://www.homecenter.com.co/homecenter-co/category/cat4840042/consolas-y-bifes/?cid=cat10344cat#Consolas",
